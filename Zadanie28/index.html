@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript">
+var ciezarowka = {
+marka: 'Mercedes',
+kola: 12,
+kolor: 'pomarańczowy',
+ciezarowka_pokaz_banaczk: function ()
+{
+document.write(this.marka + ' ' + this.kola, ' ', this.kolor)
+}
+}
+ciezarowka.moc = 400
+ciezarowka.ciezarowka_pokaz_banaczk = function(){
+	document.write(this.marka + ' ' + this.kola, ' ', this.kolor, ' ', ciezarowka.moc)
+}
+ciezarowka.ciezarowka_pokaz_banaczk();
+</script>
+</head>
+</html>
